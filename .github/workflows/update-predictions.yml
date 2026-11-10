@@ -1,0 +1,58 @@
+name: Update predictions
+
+# Polls frequently around race weekends and daily otherwise. A full prediction
+# run only happens when the source data actually changed (hash check inside
+# the job); otherwise the job exits in seconds. A new snapshot is committed,
+# which triggers the frontend redeploy (Vercel Git integration).
+on:
+  schedule:
+    - cron: "*/20 * * * 0,1,6"   # Sat/Sun/Mon (UTC): sprint + race + late classifications
+    - cron: "17 9 * * 2-5"       # Tue–Fri: once a day (amended results, calendar, entries)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Rebuild even if data is unchanged"
+        type: boolean
+        default: false
+
+concurrency:
+  group: update-predictions
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Restore API cache
+        uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: jolpica-${{ github.run_id }}
+          restore-keys: jolpica-
+      - run: pip install -r backend/requirements.txt
+      - name: Run pipeline
+        working-directory: backend
+        run: |
+          python -m apex.pipeline.run --season "$(date -u +%Y)" --source jolpica --sims 200000 \
+            ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+      - name: Commit new snapshot
+        run: |
+          if [[ -n "$(git status --porcelain data/snapshots data/registry)" ]]; then
+            git config user.name "apex-predictor-bot"
+            git config user.email "apex-predictor-bot@users.noreply.github.com"
+            git add data/snapshots data/registry
+            git commit -m "Update prediction snapshot $(date -u +%FT%TZ)"
+            git push
+          else
+            echo "No change."
+          fi

@@ -1,0 +1,7 @@
+node_modules/
+frontend/dist/
+frontend/dist-artifact/
+data/cache/
+__pycache__/
+.pytest_cache/
+*.pyc

@@ -1,0 +1,20 @@
+1:russell antonelli hadjar leclerc piastri norris hamilton lawson arvid_lindblad bortoleto hulkenberg bearman ocon gasly albon colapinto alonso perez bottas
+2:antonelli russell hamilton leclerc piastri norris gasly max_verstappen hadjar bearman hulkenberg colapinto ocon lawson arvid_lindblad bortoleto sainz albon alonso bottas stroll perez
+3:antonelli russell piastri leclerc norris hamilton gasly hadjar bortoleto arvid_lindblad max_verstappen ocon hulkenberg lawson colapinto sainz albon bearman perez bottas alonso stroll
+4:antonelli max_verstappen leclerc norris russell hamilton piastri colapinto gasly hulkenberg lawson bearman sainz ocon albon arvid_lindblad alonso stroll bottas perez bortoleto hadjar
+5:russell antonelli norris piastri hamilton max_verstappen hadjar leclerc arvid_lindblad colapinto hulkenberg lawson bortoleto gasly sainz bearman ocon albon alonso perez stroll bottas
+6:antonelli max_verstappen hamilton leclerc hadjar russell piastri norris gasly lawson albon sainz hulkenberg colapinto arvid_lindblad bortoleto ocon perez bearman bottas alonso stroll
+7:russell hamilton antonelli norris max_verstappen hadjar piastri lawson hulkenberg leclerc arvid_lindblad bortoleto colapinto gasly bearman sainz ocon albon perez bottas stroll alonso
+8:russell leclerc hamilton antonelli max_verstappen norris piastri hadjar lawson arvid_lindblad gasly bortoleto bearman hulkenberg ocon colapinto sainz albon perez bottas alonso stroll
+9:antonelli leclerc hamilton russell hadjar norris max_verstappen piastri arvid_lindblad lawson bortoleto gasly hulkenberg bearman sainz albon ocon bottas colapinto perez stroll alonso
+10:antonelli max_verstappen norris russell leclerc hamilton piastri arvid_lindblad bortoleto hadjar lawson gasly colapinto hulkenberg sainz bearman albon ocon bottas perez alonso stroll
+11:norris hamilton leclerc antonelli piastri max_verstappen russell hadjar arvid_lindblad hulkenberg lawson gasly colapinto bortoleto ocon alonso bearman sainz albon stroll bottas perez
+12:norris russell antonelli piastri hamilton leclerc max_verstappen lawson bortoleto arvid_lindblad gasly tsunoda hulkenberg colapinto ocon albon sainz alonso stroll bearman bottas perez
+13:gasly russell piastri leclerc hamilton max_verstappen antonelli colapinto norris arvid_lindblad bortoleto bearman hulkenberg lawson sainz ocon tsunoda albon bottas perez alonso stroll
+14:norris antonelli max_verstappen hamilton leclerc russell piastri lawson colapinto arvid_lindblad hulkenberg bortoleto ocon gasly tsunoda albon sainz alonso perez bottas
+15:russell leclerc piastri hadjar norris hamilton gasly max_verstappen sainz colapinto bearman lawson albon ocon arvid_lindblad antonelli bortoleto hulkenberg alonso perez stroll bottas
+16:max_verstappen hamilton hadjar antonelli leclerc norris piastri russell gasly bortoleto lawson alonso sainz stroll colapinto arvid_lindblad hulkenberg bearman ocon albon bottas perez
+17:max_verstappen leclerc hamilton antonelli norris russell piastri gasly lawson arvid_lindblad hulkenberg bearman ocon sainz bortoleto colapinto alonso albon stroll perez bottas hadjar
+18:antonelli max_verstappen hadjar leclerc hamilton russell piastri norris arvid_lindblad lawson gasly hulkenberg bortoleto colapinto alonso bearman ocon stroll sainz albon perez bottas
+19:hamilton russell leclerc max_verstappen antonelli norris hadjar lawson gasly hulkenberg colapinto piastri bortoleto bearman sainz albon alonso ryo_hirakawa stroll perez bottas
+20:norris russell antonelli leclerc lawson hulkenberg hadjar bearman alonso albon hamilton piastri rafael_camara arvid_lindblad sainz max_verstappen colapinto gasly stroll bottas perez bortoleto

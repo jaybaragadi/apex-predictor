@@ -1,0 +1,24 @@
+round,name,circuit_id,locality,country,date,sprint_date,status
+1,Australian Grand Prix,albert_park,Melbourne,Australia,2026-03-08,,completed
+2,Chinese Grand Prix,shanghai,Shanghai,China,2026-03-15,2026-03-14,completed
+3,Japanese Grand Prix,suzuka,Suzuka,Japan,2026-03-29,,completed
+4,Miami Grand Prix,miami,Miami,USA,2026-05-03,2026-05-02,completed
+5,Canadian Grand Prix,villeneuve,Montreal,Canada,2026-05-24,2026-05-23,completed
+6,Monaco Grand Prix,monaco,Monte Carlo,Monaco,2026-06-07,,completed
+7,Barcelona Grand Prix,catalunya,Barcelona,Spain,2026-06-14,,completed
+8,Austrian Grand Prix,red_bull_ring,Spielberg,Austria,2026-06-28,,completed
+9,British Grand Prix,silverstone,Silverstone,UK,2026-07-05,2026-07-04,completed
+10,Belgian Grand Prix,spa,Spa,Belgium,2026-07-19,,completed
+11,Hungarian Grand Prix,hungaroring,Budapest,Hungary,2026-07-26,,completed
+12,Dutch Grand Prix,zandvoort,Zandvoort,Netherlands,2026-08-23,2026-08-22,completed
+13,Italian Grand Prix,monza,Monza,Italy,2026-09-06,,completed
+14,Spanish Grand Prix,madring,Madrid,Spain,2026-09-13,,completed
+15,Azerbaijan Grand Prix,baku,Baku,Azerbaijan,2026-09-26,,completed
+16,Bahrain Grand Prix in Malaysia,sepang,Kuala Lumpur,Malaysia,2026-10-04,,completed
+17,Singapore Grand Prix,marina_bay,Marina Bay,Singapore,2026-10-11,2026-10-10,completed
+18,United States Grand Prix,americas,Austin,USA,2026-10-25,,completed
+19,Mexico City Grand Prix,rodriguez,Mexico City,Mexico,2026-11-01,,completed
+20,Brazilian Grand Prix,interlagos,São Paulo,Brazil,2026-11-08,,completed
+21,Las Vegas Grand Prix,vegas,Las Vegas,USA,2026-11-22,,scheduled
+22,Qatar Grand Prix,losail,Lusail,Qatar,2026-11-29,,scheduled
+23,Abu Dhabi Grand Prix,yas_marina,Abu Dhabi,UAE,2026-12-06,,scheduled

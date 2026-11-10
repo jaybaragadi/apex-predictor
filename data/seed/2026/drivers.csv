@@ -1,0 +1,26 @@
+source_id,code,given_name,family_name,permanent_number,nationality
+albon,ALB,Alexander,Albon,23,Thai
+alonso,ALO,Fernando,Alonso,14,Spanish
+antonelli,ANT,Andrea Kimi,Antonelli,12,Italian
+bearman,BEA,Oliver,Bearman,87,British
+bortoleto,BOR,Gabriel,Bortoleto,5,Brazilian
+bottas,BOT,Valtteri,Bottas,77,Finnish
+rafael_camara,,Rafael,Camara,,
+colapinto,COL,Franco,Colapinto,43,Argentine
+gasly,GAS,Pierre,Gasly,10,French
+hadjar,HAD,Isack,Hadjar,6,French
+hamilton,HAM,Lewis,Hamilton,44,British
+ryo_hirakawa,HIR,Ryo,Hirakawa,50,Japanese
+hulkenberg,HUL,Nico,Hülkenberg,27,German
+lawson,LAW,Liam,Lawson,30,New Zealander
+leclerc,LEC,Charles,Leclerc,16,Monegasque
+arvid_lindblad,LIN,Arvid,Lindblad,41,British
+norris,NOR,Lando,Norris,1,British
+ocon,OCO,Esteban,Ocon,31,French
+piastri,PIA,Oscar,Piastri,81,Australian
+perez,PER,Sergio,Pérez,11,Mexican
+russell,RUS,George,Russell,63,British
+sainz,SAI,Carlos,Sainz,55,Spanish
+stroll,STR,Lance,Stroll,18,Canadian
+tsunoda,TSU,Yuki,Tsunoda,22,Japanese
+max_verstappen,VER,Max,Verstappen,3,Dutch
